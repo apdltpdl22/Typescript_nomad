@@ -1,0 +1,15 @@
+{
+  "name": "Typescript_nomad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/apdltpdl22/Typescript_nomad.git",
+  "author": "apdltpdl22 <apdltpdl22@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  }
+}
